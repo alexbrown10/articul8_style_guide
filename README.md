@@ -36,8 +36,12 @@ Examples of the **Product** and **Release Note** types will be available as addi
 
 ## Release Notes
 
-1. **Release Notes** will be timestamped.
-2. They will contain H2 sections for "New Changes", "Bugfixes", and any other high-level classifications
-3. They will contain H3 sections based on relevant changes made to a given part of the product:
+1. **Release Notes** will be titled with an H1 section, which will include, at minimum:
+   - a release version in the form of `v.majorVersion.minorVersion`, eg `v1.0`
+   - a product name, eg "Articul8 Essential"
+2. **Release Notes** will be timestamped.
+3. They will contain H2 sections for "New Changes", "Bugfixes", and any other high-level classifications
+4. They will contain H3 sections based on relevant changes made to a given part of the product:
   - eg "ModelMesh (tm)", "API", "Infrastructure", etc
 4. They will contain inline hyperlinks to relevant documentation, where available
+5. If there are no updates to provide for a given section, they will NOT be included in the release note. 
