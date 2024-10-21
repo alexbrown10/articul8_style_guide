@@ -37,7 +37,7 @@ Examples of the **Product** and **Release Note** types will be available as addi
 ## Release Notes
 
 1. **Release Notes** will be titled with an H1 section, which will include, at minimum:
-   - a release version in the form of `v.majorVersion.minorVersion`, eg `v1.0`
+   - a release version in the form of `v` then `majorVersion.minorVersion`, eg `v1.0`
    - a product name, eg "Articul8 Essential"
 2. **Release Notes** will be timestamped.
 3. They will contain H2 sections for "New Changes", "Bugfixes", and any other high-level classifications
